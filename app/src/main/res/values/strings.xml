@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Sweet Dreams</string>
+    <string name="time_picker_title">השתק בעוד:</string>
+    <string-array name="timer_picker_array">
+        <item>10 דקות</item>
+        <item>20 דקות</item>
+        <item>30 דקות</item>
+        <item>40 דקות</item>
+        <item>שעה אחת</item>
+        <item>שעתיים</item>
+        <item>ארבע שעות</item>
+        <item>שמונה שעות</item>
+    </string-array>
+    <string name="info">כל הצלילים באפליקציה הם צלילים אשר הוכחו מחקרית כצלילים אשר גורמים להירדמות, לשינה עמוקה, טובה ונעימה.
+    לכל צליל יש השפעה שונה על המוח שלנו, שילוב מסוים של צלילים ומקצבים-מכניס את המוח שלנו, בין אם הוא רוצה ובין אם לא, למצב בו אנו נינוחים, רגועים, מתעוררת בנו עייפות, וכך אנו נרדמים לשינה טובה ונעימה.</string>
+<string name="good_night">לילה טוב</string>
+</resources>

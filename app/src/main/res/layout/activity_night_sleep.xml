@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_night_sleep"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="sweetdreams.sweetdreams.nightSleepActivity"
+    android:background="@drawable/rsz_background_cleaner2"
+    android:visibility="visible"
+    android:elevation="1dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="29dp">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="73dp"
+            android:id="@+id/playPauseButton"
+            android:background="@drawable/pause_button"
+            android:foreground="?attr/selectableItemBackground"
+            android:layout_alignParentBottom="true"
+            android:layout_toLeftOf="@+id/timerButton"
+            android:layout_toStartOf="@+id/timerButton"
+            android:layout_marginRight="24dp"
+            android:layout_marginEnd="24dp"
+            />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/timerButton"
+            android:background="@drawable/timer_icon"
+            android:layout_marginRight="22dp"
+            android:layout_marginEnd="22dp"
+            android:layout_alignBaseline="@+id/playPauseButton"
+            android:foreground="?attr/selectableItemBackground"
+            android:layout_alignBottom="@+id/playPauseButton"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/timePickerResult"
+            android:textSize="30sp"
+            android:textColor="#f2ea64"
+            android:layout_marginRight="24dp"
+            android:layout_marginEnd="24dp"
+            android:layout_alignBaseline="@+id/timerButton"
+            android:layout_alignBottom="@+id/timerButton"
+            android:layout_alignRight="@+id/timerButton"
+            android:layout_alignEnd="@+id/timerButton" />
+
+        <Button
+            android:id="@+id/info_button"
+            android:background="@drawable/info2"
+            android:layout_alignParentTop="true"
+            android:layout_alignLeft="@+id/playPauseButton"
+            android:layout_alignStart="@+id/playPauseButton"
+            android:layout_width="28dip"
+            android:layout_height="28dip" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

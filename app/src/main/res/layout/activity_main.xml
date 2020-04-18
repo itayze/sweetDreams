@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="sweetdreams.sweetdreams.MainActivity"
+    android:background="@drawable/background_clean_rsz">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:id="@+id/planSleep"
+        android:background="@drawable/sleep_in_plan"
+        android:layout_below="@+id/daySleep"
+        android:foreground="?attr/selectableItemBackground"
+        android:layout_alignLeft="@+id/daySleep"
+        android:layout_alignStart="@+id/daySleep" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/daySleep"
+        android:background="@drawable/sleep_in_day"
+        android:layout_marginTop="17dp"
+        android:layout_below="@+id/nightSleep"
+        android:foreground="?attr/selectableItemBackground"
+        android:layout_alignLeft="@+id/nightSleep"
+        android:layout_alignStart="@+id/nightSleep" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/nightSleep"
+        android:background="@drawable/sleep_in_night"
+        android:clickable="true"
+        android:foreground="?attr/selectableItemBackground"
+        android:layout_marginTop="146dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+</RelativeLayout>
